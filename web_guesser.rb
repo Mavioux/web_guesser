@@ -1,5 +1,6 @@
 require 'sinatra'
-require 'sinatra/reloader'
+require 'rubygems'
+require 'sinatra/reloader' if development?
 
 number = rand(101)
 guess = "villos"
